@@ -13,6 +13,7 @@ Historical exchange rate data is obtained using the **`yfinance`** library in Py
 $P_t = P_{t-1} \times (1 + r_t)$
 
 where \(r_t\) are the **direct returns** forecasted by N-BEATS.
+
 4. The model is trained on **5 days** of historical data to forecast the **next 30 days**.
 
 ## Notes
