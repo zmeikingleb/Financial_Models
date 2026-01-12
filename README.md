@@ -10,7 +10,7 @@ $P_{t} = P_{t-1} \times (1+r_t)$
 
 Where $r_t$ are direct returns, forecast using NBEATS.
 
-The forecast is forecast on 30 days, using NBEATS trained on 5 days.
+The data is forecast on 30 days, using NBEATS trained on 5 days.
 
 
 
