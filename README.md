@@ -1,17 +1,25 @@
-# Financial_Models
-The aim of this work would be to use the NBEATS predictor to forecast the tendency of the exchange rate between USD/EUR. 
+# Financial Models – USD/EUR Exchange Rate Forecasting
 
-The historical data used would come frome the `yfinance` library in Python. 
+## Objective
+The goal of this project is to use the **N-BEATS model** to forecast the **trend of the USD/EUR exchange rate**.
 
-In order to study this prediction, a time series is to be created. That can be made via `TimeSeries` class of `darts` Python library. This series has to be normalized, so that coherent results could be obtained.
+## Data Source
+Historical exchange rate data is obtained using the **`yfinance`** library in Python.
 
-To forecast prices, the following formula is used : 
-$P_{t} = P_{t-1} \times (1+r_t)$
+## Methodology
+1. A **time series** is created from the historical data using the `TimeSeries` class from the **Darts** Python library.
+2. The time series is **normalized** to ensure consistent and coherent results.
+3. **Price forecasting** is performed using the following formula:
+\[
+P_t = P_{t-1} \times (1 + r_t)
+\]
 
-Where $r_t$ are direct returns, forecast using NBEATS.
+where \(r_t\) are the **direct returns** forecasted by N-BEATS.
+4. The model is trained on **5 days** of historical data to forecast the **next 30 days**.
 
-The data is forecast on 30 days, using NBEATS trained on 5 days.
-
+## Notes
+- The focus is on short-term forecasting of the USD/EUR exchange rate.  
+- Normalization of the time series is crucial for the model to perform accurately.
 
 
 
