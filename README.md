@@ -1,8 +1,6 @@
-# Financial_Models
+# Financial Models
 
-This is my financial models simulations.
+This repository contains my **financial model simulations**.  
 
-To see the full **study of Black Scholes Model**, please **GO TO THE blackScholes BRANCH**
-
-
-To review the **study of Financial Forecasting**, go to the **financialForecasting branch**.
+- To explore the **Black-Scholes model**, please visit the [`blackScholes`](https://github.com/zmeikingleb/Financial_Models/tree/blackScholes) branch.  
+- To review the **financial forecasting study**, check the [`financialForecasting`](https://github.com/zmeikingleb/Financial_Models/tree/financialForecasting) branch.
