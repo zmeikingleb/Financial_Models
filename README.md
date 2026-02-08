@@ -18,32 +18,32 @@ L’objet du projet est de présenter un outil capable de résoudre des EDP comp
 
 Au minimum, les modèles suivants sont implémentés :
 
-1. Black & Scholes (BS)
+1. Black & Scholes (BS) : 
 
 - Pricing d’options Vanilla et Exotiques (Knockout / Barrier).
 
-Visualisation :
+ ### Visualisation :
 
-Heatmaps de V(t,x)
+- Heatmaps de V(t,x)
 
-Courbe V(t=0,x)
+- Courbe V(t=0,x)
 
-Surface V(t,x)
+- Surface V(t,x)
 
-Possibilité de modifier les hyperparamètres : taux, volatilité, theta de Crank-Nicholson, Nt, Nx, maturité, etc.
+**Possibilité de modifier les hyperparamètres : taux, volatilité, theta de Crank-Nicolson, Nt, Nx, maturité, etc.**
 
-2. Vasicek
+2. Vasicek :
 
-Comparaison de différentes valeurs de theta avec les mêmes visualisations que BS.
+- Comparaison de différentes valeurs de theta avec les mêmes visualisations que BS.
 
-Possibilité de faire varier tous les hyperparamètres.
+**Possibilité de faire varier tous les hyperparamètres.**
 
 3. CIR (Cox-Ingersoll-Ross)
 
-Similaire à Vasicek : visualisations et variations des hyperparamètres.
+- Similaire à Vasicek : visualisations et variations des hyperparamètres.
 
 
 
-Projet réalisé individuellement.
+**Projet réalisé individuellement.**
 
-Tous les calculs sont faits en Python.
+Tous les calculs sont faits en **Python.**
